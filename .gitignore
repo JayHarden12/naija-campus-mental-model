@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# Models and Large Files (Optional depending on preference, but usually better to ignore large binary folders)
+naija_campus_model/
+results/
+logs/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Large Datasets (If you want to keep them on Git, remove these. But for efficiency, usually excluded)
+# Master_Dataset_Labeled.csv
+# Master_Dataset_Cleaned.csv
