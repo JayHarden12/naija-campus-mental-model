@@ -4,7 +4,7 @@ import time
 import os
 
 # 1. Setup the AI
-genai.configure(api_key="AIzaSyD3Q3vYUyRDdASsPGLHf2FpuoK9EorwL8w")
+genai.configure(api_key="API_KEY")
 # Switching to flash for a much higher free-tier daily quota (1500 RPM vs 50 for Pro)
 #model = genai.GenerativeModel('gemini-2.5-flash')
 model = genai.GenerativeModel('gemini-3.1-pro-preview')
